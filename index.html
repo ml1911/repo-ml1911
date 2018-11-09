@@ -25,66 +25,93 @@
         <use xlink:href="#logo"></use>
       </svg>
       <h1 class="header__title visually-hidden">Surface</h1>
-      <p class="header__slogan"><span>Be recruited</span><span>play college sports</span></p>
+      <p class="header__slogan"><span class="header__slogan--be">Be recruited</span><span class="header__slogan--play">play
+          college sports</span></p>
       <div class="header__controls controls">
-        <a class="button button--download" href="#">download on the<span class="button--bold">app store</span></a>
-        <a class="button button--get" href="#">get it on<span class="button--bold">google play</span></a>
+        <a class="button button--download" href="#">
+          <div class="button__block">
+            <span class="button--regular">download on the</span>
+            <span class="button--bold">app store</span>
+          </div>
+        </a>
+        <a class="button button--get" href="#">
+          <div class="button__block">
+            <span class="button--regular">get it on</span>
+            <span class="button--bold">google play</span>
+          </div>
+        </a>
       </div>
     </div>
   </header>
   <main class="main">
     <section class="athlets">
-      <div class="athlets__block container">
-        <h2 class="athlets__title">Athlets</h2>
+      <div class="container">
+        <div class="athlets__block">
+          <h2 class="athlets__title">Athlets</h2>
+        </div>
       </div>
       <ul class="athlets__list">
         <li class="athlets__item">
-          <div class="athlets__block container">
-            <h3 class="athlets__header">Connection</h3>
-            <p class="athlets__text">Connect with coaches directly, you can ping coaches to view profile.</p>
+          <div class="container">
+            <div class="athlets__block">
+              <h3 class="athlets__header">Connection</h3>
+              <p class="athlets__text">Connect with coaches directly, you can ping coaches to view profile.</p>
+            </div>
           </div>
         </li>
         <li class="athlets__item">
-          <div class="athlets__block container">
-            <h3 class="athlets__header">Collaboration</h3>
-            <p class="athlets__text">Work with other student athletes to  increase visability. When you share
-              and
-              like other players videos it will increase your visability as a player. This is the team work aspect to
-              Surface 1.</p>
+          <div class="container">
+            <div class="athlets__block">
+              <h3 class="athlets__header">Collaboration</h3>
+              <p class="athlets__text">Work with other student athletes to  increase visability. When you share
+                and
+                like other players videos it will increase your visability as a player. This is the team work aspect to
+                Surface 1.</p>
+            </div>
           </div>
         </li>
         <li class="athlets__item">
-          <div class="athlets__block container">
-            <h3 class="athlets__header">Growth</h3>
-            <p class="athlets__text">Resources and tools for you to get better as a student Athelte. Access
-              to training classes, tutor sessions, etc.</p>
+          <div class="container">
+            <div class="athlets__block">
+              <h3 class="athlets__header">Growth</h3>
+              <p class="athlets__text">Resources and tools for you to get better as a student Athelte. Access
+                to training classes, tutor sessions, etc.</p>
+            </div>
           </div>
         </li>
       </ul>
     </section>
     <section class="players">
-      <div class="players__block container">
-        <h2 class="players__title">Players</h2>
+      <div class="container">
+        <div class="players__block">
+          <h2 class="players__title">Players</h2>
+        </div>
       </div>
       <ul class="players__list">
         <li class="players__item">
-          <div class="players__block container">
-            <h3 class="players__header">Connection</h3>
-            <p class="players__text">Connect with talented athlete directly, you can watch their skills through
-              video showreels directly from Surface 1.</p>
+          <div class="container">
+            <div class="players__block">
+              <h3 class="players__header">Connection</h3>
+              <p class="players__text">Connect with talented athlete directly, you can watch their skills through
+                video showreels directly from Surface 1.</p>
+            </div>
           </div>
         </li>
         <li class="players__item">
-          <div class="players__block container">
-            <h3 class="players__header">Collaboration</h3>
-            <p class="players__text">Work with recruiter to increase your chances of finding talented athlete.</p>
+          <div class="container">
+            <div class="players__block">
+              <h3 class="players__header">Collaboration</h3>
+              <p class="players__text">Work with recruiter to increase your chances of finding talented athlete.</p>
+            </div>
           </div>
         </li>
         <li class="players__item">
-          <div class="players__block container">
-            <h3 class="players__header">Growth</h3>
-            <p class="players__text">Save your time, recruit proper athlets for your team.</p>
-          </div>
+          <div class="container">
+            <div class="players__block">
+              <h3 class="players__header">Growth</h3>
+              <p class="players__text">Save your time, recruit proper athlets for your team.</p>
+            </div>
+            <div>
         </li>
       </ul>
     </section>
@@ -92,12 +119,14 @@
       <h2 class="offers__title visually-hidden">Предложения</h2>
       <ul class="offers__list">
         <li class="offers__item">
-          <picture>
-            <source media="(min-width: 1024px)" srcset="image/be-active_1024.jpg">
-            <source media="(min-width: 960px)" srcset="image/be-active_960.jpg">
-            <source media="(min-width: 768px)" srcset="image/be-active_768.jpg">
-            <img class="offers__image" src="image/be-active_640.jpg" alt="Be active">
-          </picture>
+          <div class="offers__image-block">
+            <picture>
+              <source media="(min-width: 1025px)" srcset="image/be-active_960.jpg">
+              <source media="(min-width: 769px)" srcset="image/be-active_1024.jpg">
+              <source media="(min-width: 641px)" srcset="image/be-active_768.jpg">
+              <img class="offers__image" src="image/be-active_640.jpg" alt="Be active">
+            </picture>
+          </div>
           <div class="offers__block">
             <h3 class="offers__header">Be active</h3>
             <p class="offers__text">Post videos with your skills, Like and follow others
@@ -105,12 +134,14 @@
           </div>
         </li>
         <li class="offers__item">
-          <picture>
-            <source media="(min-width: 1024px)" srcset="image/find-contact_1024.jpg">
-            <source media="(min-width: 960px)" srcset="image/find-contact_960.jpg">
-            <source media="(min-width: 768px)" srcset="image/find-contact_768.jpg">
-            <img class="offers__image" src="image/find-contact_640.jpg" alt="Find contact">
-          </picture>
+          <div class="offers__image-block">
+            <picture>
+                <source media="(min-width: 1025px)" srcset="image/find-contact_960.jpg">
+                  <source media="(min-width: 769px)" srcset="image/find-contact_1024.jpg">
+                  <source media="(min-width: 641px)" srcset="image/find-contact_768.jpg">
+                <img class="offers__image" src="image/find-contact_640.jpg" alt="Find contact">
+            </picture>
+          </div>
           <div class="offers__block">
             <h3 class="offers__header">Find contact</h3>
             <p class="offers__text">Contact others to find right coach or athlete you are
@@ -118,12 +149,14 @@
           </div>
         </li>
         <li class="offers__item">
-          <picture>
-            <source media="(min-width: 1024px)" srcset="image/work-it_1024.jpg">
-            <source media="(min-width: 960px)" srcset="image/work-it_960.jpg">
-            <source media="(min-width: 768px)" srcset="image/work-it_768.jpg">
-            <img class="offers__image" src="image/work-it_640.jpg" alt="Work it">
-          </picture>
+          <div class="offers__image-block">
+            <picture>
+                <source media="(min-width: 1025px)" srcset="image/work-it_960.jpg">
+                  <source media="(min-width: 769px)" srcset="image/work-it_1024.jpg">
+                  <source media="(min-width: 641px)" srcset="image/work-it_768.jpg">
+                <img class="offers__image" src="image/work-it_640.jpg" alt="Work it">
+            </picture>
+          </div>
           <div class="offers__block">
             <h3 class="offers__header">Work it</h3>
             <p class="offers__text">Enjoy being a student athlete, the recruiting process
@@ -135,22 +168,29 @@
     </section>
   </main>
   <footer class="footer">
-
     <div class=" container">
+      <p class="footer__slogan">
+        <span class="footer__dowload-text">Download app</span>
+        <span class="footer__text">Show everyone what you can do!</span>
+      </p>
+      <div class="footer__controls controls">
+        <a class="button button--download" href="#">
+          <div class="button__block">
+            <span class="button--regular">download on the</span>
+            <span class="button--bold">app store</span>
+          </div>
+        </a>
+        <a class="button button--get" href="#">
+          <div class="button__block">
+            <span class="button--regular">get it on</span>
+            <span class="button--bold">google play</span>
+          </div>
+        </a>
+      </div>
       <svg class="footer__logo logo" width="200" height="35">
         <use xlink:href="#logo"></use>
       </svg>
-      <p class="footer__slogan"><span class="footer__dowload-text">Download app</span><span class="footer__text">Show everyone what you can do!</span> </p>>
-
-      <div class="footer__controls controls">
-        <a class="button button--download" href="#">download on the<span class="button--bold">app store</span></a>
-        <a class="button button--get" href="#">get it on<span class="button--bold">google play</span></a>
-      </div>
-
-
-
     </div>
-
   </footer>
 </body>
 
