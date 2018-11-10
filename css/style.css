@@ -560,7 +560,7 @@ a {
 
 @media (min-width: 641px) and (max-width: 1024px) {
   .athlets::before {
-    top: 12.23vw;
+    top: 3vw;
     left: -21.22vw;
     width: 64.71vw;
     height: 91.01vw;
@@ -1131,22 +1131,8 @@ a {
   }
 }
 
-.offers__image-block {
-  width: 50%;
-}
-
-@media (min-width: 320px) and (max-width: 1024px) {
-  .offers__image-block {
-    width: 100%;
-    height: auto;
-  }
-}
-
 .offers__image {
-  margin-top: 0;
-  margin-left: 0;
   width: 100%;
-  height: auto;
 }
 
 .offers__block {
@@ -1435,7 +1421,7 @@ a {
 }
 
 .footer__text {
-  margin-top: 10px;
+  margin-top: 18px;
   color: #a496ca;
   text-transform: uppercase;
   font-weight: 400;
@@ -1467,7 +1453,7 @@ a {
 }
 
 .footer__controls {
-  margin-top: 150px;
+  margin-top: 144px;
 }
 
 @media (min-width: 1025px) and (max-width: 1919px) {
